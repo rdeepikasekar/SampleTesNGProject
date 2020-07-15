@@ -15,6 +15,7 @@ public class BeforeMtd {
 	  driver = new ChromeDriver();
 	  driver.get("http://automationpractice.com/index.php");
 	  driver.manage().window().maximize();
+	  System.out.println("Before method");
 //	  driver.findElement(By.xpath("//a[text()=' My Account                  ']")).click();
 //	  driver.findElement(By.linkText("Login")).click();
 //	  driver.findElement(By.name("username")).sendKeys("user@phptravels.com");
